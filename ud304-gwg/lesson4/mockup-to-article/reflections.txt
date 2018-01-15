@@ -1,0 +1,46 @@
+You've learned a lot about web development so far. I want you to take a moment to write down your thoughts about web development here. Answer the following questions:
+  * What new skills have you learned?
+  * What has been easy?
+  * What has been difficult?
+  * How have you used the problem solving strategies from the first project to overcome challenges so far?
+
+---
+
+## What new skills have you learned?
+
+I've learned new tags like <figure> and <sup>.
+
+From the forum -- https://udacity.github.io/frontend-nanodegree-styleguide/#media-fallback
+
+## What has been easy?
+
+I started using HTML in 1996 for a high school summer program at a local university. While some things have 
+changed, many have stayed the same. This material has been mostly review for me and has felt 'easy'.
+
+## What has been difficult?
+
+The difficult part has been making sure I read through the material and take it seriously.  When I've seen 
+material before, I tend to fall into the trap of thinking that I already know everything and have nothing to 
+pick up. Then, I worry that I may have missed something because of overconfidence.
+
+It's hard to figure out what you're testing. I ended up looking at the tests.json files and the 
+source for one of your mock-ups as a sanity check, and I probably shouldn't have needed to do that. If you want
+something exactly like a mock-up and you provide a link to an existing site as inspiration, then do you want
+students to take initiative to also include css and other style constraints from that inspiration to make sure
+that it is exact? If I were an instructor, I'd say no... but then why are you including the link? Maybe you're
+including the link just to make sure you cite the original work?
+
+There are a zillion ways of doing things. What's going to be of value to someone at Udacity? The mock-up 
+inspiration didn't use the time tag, but it was suggested as feedback from one of the mentors 
+'<p><time datetime="2016-03-10">March 10, 2016</time></p>'. 
+
+On the flip side, I don't have a lot of time, and I worry that I'm spending too much time on making sure my 
+overconfidence doesn't get the best of me, instead of focusing on learning the course material and actually 
+getting through it all. I imagine as the topics get more difficult, this will be less of a problem. I also 
+worry that my working on a more basic course instead of something more intermediate or advanced will end up 
+being a waste of time, especially if I don't get the scholarship in the next phase.
+
+## How have you used the problem solving strategies from the first project to overcome challenges so far?
+
+The HTML elements reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element) has been a good resource
+to look up tags.
