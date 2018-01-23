@@ -1,0 +1,37 @@
+.fact {
+  font-style: italic;
+}
+
+#outer-border {
+  border: 1px solid rgb(184, 193, 186);
+  width: 300px;
+  padding: 1em;
+  box-shadow: 7px 7px 7px 0px rgb(184, 193, 186);
+}
+
+#info-border {
+  border: 1px solid rgb(184, 193, 186);
+  width: 300px;
+  padding: 0 0 1em 0;
+}
+
+.info-list {
+  padding: 0 0 0 1em;
+}
+
+.label {
+  font-weight: bold;
+}
+
+li {
+  list-style-type: none;
+}
+
+#main-image {
+  width: 300px;
+  padding: 1em 0 1em 0;
+}
+
+p {
+  padding: 0 1em 0 1em;
+}
