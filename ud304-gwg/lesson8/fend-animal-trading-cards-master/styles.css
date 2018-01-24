@@ -1,37 +1,40 @@
-.fact {
-  font-style: italic;
-}
-
-#outer-border {
+.card {
   border: 1px solid rgb(184, 193, 186);
   width: 300px;
   padding: 1em;
   box-shadow: 7px 7px 7px 0px rgb(184, 193, 186);
 }
 
-#info-border {
+.card .fact {
+  font-style: italic;
+}
+
+.card .main-image {
+  width: 300px;
+  padding: 1em 0 1em 0;
+}
+.card .info {
   border: 1px solid rgb(184, 193, 186);
   width: 300px;
   padding: 0 0 1em 0;
 }
 
-.info-list {
+.card .info ul {
   padding: 0 0 0 1em;
 }
 
-.label {
-  font-weight: bold;
-}
-
-li {
+.card .info li {
   list-style-type: none;
 }
 
-#main-image {
-  width: 300px;
-  padding: 1em 0 1em 0;
+.card .info .label {
+  font-weight: bold;
 }
 
-p {
+.card .description {
+  font-style: normal;
+}
+
+.card p {
   padding: 0 1em 0 1em;
 }
