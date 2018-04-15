@@ -1,41 +1,20 @@
-// Select color input
-function pixelColor() {
-    //return '#0f0';
-    return $('#colorPicker').val();
-};
-
-// Select size input
-function gridHeight() {
-    return $('#inputHeight').prop('value');
-};
-
-function gridWidth() {
-    // TODO: This inputWeight should probably be inputWidth, instead of inputWeight
-    return $('#inputWeight').prop('value');
-};
-
-function clearGrid(grid) {
-    grid.empty();
-};
-
 function colorPixel(event) {
-    $(this).css('backgroundColor', pixelColor());
-};
-
-function addGridRow(numCols, grid) {
-    var row = $('<tr></tr>');
-    for (var cols = 0; cols < numCols; cols++) {
-        row.append('<td></td>');
-    }
-    grid.append(row);
+    $(this).css('backgroundColor', $('#colorPicker').val());
 };
 
 function makeGrid(event) {
+    const grid = $('#pixelCanvas');
+    const gridHeight = $('#inputHeight').prop('value');
+    const gridWidth = $('#inputWeight').prop('value');
+
     event.preventDefault();
-    var grid = $('#pixelCanvas');
-    clearGrid(grid);
-    for (var row = 0; row < gridHeight(); row++) {
-        addGridRow(gridWidth(), grid);
+    grid.empty();
+    for (let i = 0; i < gridHeight; i++) {
+        let row = $('<tr></tr>');
+        for (let cols = 0; cols < gridWidth; cols++) {
+            row.append($('<td></td>'));
+        }
+        grid.append(row);
     }
 };
 
